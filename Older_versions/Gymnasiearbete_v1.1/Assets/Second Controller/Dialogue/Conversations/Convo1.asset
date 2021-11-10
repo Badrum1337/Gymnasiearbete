@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d84ae7d135d484fb2189c946ddf793, type: 3}
+  m_Name: Convo1
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 88dcc9eab7a812d4face849a1edfcc58, type: 2}
+    dialogue: How are you doing?
+  - speaker: {fileID: 11400000, guid: e3272532c8cbc8d46884d6f297338309, type: 2}
+    dialogue: Im doing fine, how are you?
+  - speaker: {fileID: 11400000, guid: 88dcc9eab7a812d4face849a1edfcc58, type: 2}
+    dialogue: Fantastic!
