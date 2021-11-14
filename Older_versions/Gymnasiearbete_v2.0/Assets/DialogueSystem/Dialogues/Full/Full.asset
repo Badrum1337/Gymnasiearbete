@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fba13e86bf2ddb4f9cc444d3c9e604c, type: 3}
+  m_Name: Full
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Full
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 39375487f80ef2c44802703681a29007, type: 2}
+      Value:
+      - {fileID: 11400000, guid: fb45231cc9f399e4aa3c09f7ac759037, type: 2}
+    - Key: {fileID: 11400000, guid: e80e3185bc52a514c9588a4f5fa675db, type: 2}
+      Value: []
+    - Key: {fileID: 11400000, guid: 13e30843e35fdd2419d3744d445f9835, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 3979784e646cff849823b2c1229ba8a8, type: 2}
+    - Key: {fileID: 11400000, guid: f3a5deb3000a5b145b79f60ebc7b0e4e, type: 2}
+      Value: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 20e82650f5d80c54fb272a4356e6ed85, type: 2}
+  - {fileID: 11400000, guid: 78fd6a656920b9c4991cee11e74b93e2, type: 2}

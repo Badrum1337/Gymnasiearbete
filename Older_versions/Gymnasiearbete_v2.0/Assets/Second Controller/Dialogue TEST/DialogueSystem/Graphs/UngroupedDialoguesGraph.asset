@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7930c3a86fb79345b754126e7a04c28, type: 3}
+  m_Name: UngroupedDialoguesGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: UngroupedDialogues
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 907d5094-e879-49be-aa1b-277c80298368
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: Dialogue Text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 9f848182-2c2a-4306-894a-f450b2ae94b6
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 348, y: 259}
+  - <ID>k__BackingField: 9f848182-2c2a-4306-894a-f450b2ae94b6
+    <Name>k__BackingField: DialogueName2
+    <Text>k__BackingField: Dialogue Text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 616, y: 259}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - DialogueName
+  - DialogueName2
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
