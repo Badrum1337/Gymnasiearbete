@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1fe8b3236682d47ad04d060bb9cfb0, type: 3}
+  m_Name: GasMask
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: GasMask
+  <Text>k__BackingField: Om du ser en gasmask, var noga med att ta upp den
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "Tack f\xF6r tipset!"
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 5d4d85078ddf4484e85153d0dfe9da6b, type: 2}
+  - <Text>k__BackingField: "Jag s\xE5g en l\xE4ngre bak, kommer strax tillbaka"
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 1e8506fc14f995f40bd26dfd6469b32d, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0

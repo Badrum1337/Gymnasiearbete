@@ -1,0 +1,1846 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'sv' Physical Memory: 16302 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Untiy/Gymnasiearbete_current_version
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49308
+Successfully changed project path to: D:/Untiy/Gymnasiearbete_current_version
+D:/Untiy/Gymnasiearbete_current_version
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Untiy/Gymnasiearbete_current_version/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001661 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Domain Reload Profiling:
+	ReloadAssembly (842ms)
+		BeginReloadAssembly (39ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (350ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3358ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (3204ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (2708ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (2257ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4015 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.2 MB.
+System memory in use after: 198.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4465.
+Total: 3.278800 ms (FindLiveObjects: 0.288700 ms CreateObjectMapping: 0.191600 ms MarkObjects: 2.737400 ms  DeleteObjects: 0.060300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Assets/Laterns and candles
+  artifactKey: Guid(fc0bedccd99936d4c80b984576154384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles using Guid(fc0bedccd99936d4c80b984576154384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c8633b55f933a41c0df921d2cf7c9f') in 0.010092 seconds 
+  Import took 0.014743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/Laterns and candles/Laterns demo.unity
+  artifactKey: Guid(f208d543c07c1a0439a22d2d388fd1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Laterns demo.unity using Guid(f208d543c07c1a0439a22d2d388fd1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0e982f6bccecabe73959a37b5a7f86') in 0.010134 seconds 
+  Import took 0.027737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.967943 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes
+  artifactKey: Guid(50a833d9122d3c5428c84384c9b5aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes using Guid(50a833d9122d3c5428c84384c9b5aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd229a9d4bfd9bab96d4c6a9b379c596') in 0.004324 seconds 
+  Import took 0.029331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027027 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Candle1.fbx
+  artifactKey: Guid(11033fb50e55f4f4bb148c9b934959e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Candle1.fbx using Guid(11033fb50e55f4f4bb148c9b934959e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+ -> (artifact id: '3a2a20732eaf952cb8394161d0361f6b') in 1.547014 seconds 
+  Import took 1.573688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/candlestick.fbx
+  artifactKey: Guid(084da560759559f4995810207469e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/candlestick.fbx using Guid(084da560759559f4995810207469e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115b773a1e5ebd62efc7b87d49f186d9') in 0.060167 seconds 
+  Import took 0.064757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/candlestick_wall.fbx
+  artifactKey: Guid(d1c8331cd64e7684298abc6c6ee000e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/candlestick_wall.fbx using Guid(d1c8331cd64e7684298abc6c6ee000e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c829e36f8b18d0c7633de47551f51e5b') in 0.030222 seconds 
+  Import took 0.034868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/CarvedPost2_double.fbx
+  artifactKey: Guid(f25cee7770aa6f84a97ea2a137423107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/CarvedPost2_double.fbx using Guid(f25cee7770aa6f84a97ea2a137423107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a642789661fd312b8f9e0cbe5852228c') in 0.066311 seconds 
+  Import took 0.071336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/LampPost.fbx
+  artifactKey: Guid(1ed05b93464bb6242b1d0cf9e388ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/LampPost.fbx using Guid(1ed05b93464bb6242b1d0cf9e388ed67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721e93610799d4e2f15a16a68d54e10a') in 0.026932 seconds 
+  Import took 0.031808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Candle3.fbx
+  artifactKey: Guid(21c30a3c7192a0649813ca3fe2cdb009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Candle3.fbx using Guid(21c30a3c7192a0649813ca3fe2cdb009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe7004c4c46261c8fee765f109da5c8') in 0.048172 seconds 
+  Import took 0.052883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Latern2.fbx
+  artifactKey: Guid(2822a6c192bfe4644849c5e3d4bb4f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Latern2.fbx using Guid(2822a6c192bfe4644849c5e3d4bb4f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f073cbcb435a60d1ca734340a88de111') in 0.061909 seconds 
+  Import took 0.082997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/LampPost_wall.fbx
+  artifactKey: Guid(00897a0dd899b104ebedcfc97838612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/LampPost_wall.fbx using Guid(00897a0dd899b104ebedcfc97838612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622f4d80ddb5bc4d4d40f707cceab37d') in 0.023113 seconds 
+  Import took 0.041481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/LampPost_double.fbx
+  artifactKey: Guid(e501831ad59a85f4bb7629bf22c658c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/LampPost_double.fbx using Guid(e501831ad59a85f4bb7629bf22c658c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcae9ffc854c6f90da13af00c48e023') in 0.033088 seconds 
+  Import took 0.044145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Latern3.fbx
+  artifactKey: Guid(c124bcb1a14e7054b8c99e402a20ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Latern3.fbx using Guid(c124bcb1a14e7054b8c99e402a20ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4fb7b5bc7bbe9bd04bc988daf78ed8') in 0.050045 seconds 
+  Import took 0.081786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/CarvedPost.fbx
+  artifactKey: Guid(1d7d476448a20da4e94fa3441f50757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/CarvedPost.fbx using Guid(1d7d476448a20da4e94fa3441f50757c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5174ff56f35370035b1dd4ca54a96172') in 0.038261 seconds 
+  Import took 0.042798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/chandelier.fbx
+  artifactKey: Guid(33a9eb33812d0a245999a3128922713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/chandelier.fbx using Guid(33a9eb33812d0a245999a3128922713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e4237499bdf2b6df42ec37d85cee2b') in 0.034376 seconds 
+  Import took 0.062921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Latern4.fbx
+  artifactKey: Guid(66dd512dabeec684ab0f4b135d4a43ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Latern4.fbx using Guid(66dd512dabeec684ab0f4b135d4a43ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d86165a5a84b708c47ae33caf9db68') in 0.059918 seconds 
+  Import took 0.082654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/ceiling chain.fbx
+  artifactKey: Guid(d119f9920a8205b45b1e51485a2163a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/ceiling chain.fbx using Guid(d119f9920a8205b45b1e51485a2163a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6d61b6d9325254bb39e0bd275bf4c6') in 0.171751 seconds 
+  Import took 0.176293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Latern1.fbx
+  artifactKey: Guid(d78538bd679f6fe4b9bd7c6c1e9c8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Latern1.fbx using Guid(d78538bd679f6fe4b9bd7c6c1e9c8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4338155dd7ea9613118552950372fd') in 0.061032 seconds 
+  Import took 0.086735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Candle2.fbx
+  artifactKey: Guid(15808812b164aff4986246a5adb04396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Candle2.fbx using Guid(15808812b164aff4986246a5adb04396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6531101c68034a3caf62c91c766660') in 0.029807 seconds 
+  Import took 0.034385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Lustre.fbx
+  artifactKey: Guid(c501a8a7118966c4bb715d3a9efaa62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Lustre.fbx using Guid(c501a8a7118966c4bb715d3a9efaa62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662fd22111f3ef12f1ff3d8b4184da86') in 0.715605 seconds 
+  Import took 0.720820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/CarvedPost2.fbx
+  artifactKey: Guid(4c09d887a9821bd4fbf5c56c4bb3477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/CarvedPost2.fbx using Guid(4c09d887a9821bd4fbf5c56c4bb3477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22fc73ec5b05b4b65e7b8f780b238db') in 0.045769 seconds 
+  Import took 0.067586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Latern5.fbx
+  artifactKey: Guid(92a5a5383e624784da2627a47a052328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Latern5.fbx using Guid(92a5a5383e624784da2627a47a052328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dd73e0229194cf18fc4261691e8e08') in 0.087388 seconds 
+  Import took 0.093725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.285631 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Materials
+  artifactKey: Guid(de23c803d1048264d8e00402d3d18231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Materials using Guid(de23c803d1048264d8e00402d3d18231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e925b96e7c46bb124f584ad05f4818') in 0.004056 seconds 
+  Import took 0.010045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Materials
+  artifactKey: Guid(de23c803d1048264d8e00402d3d18231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Materials using Guid(de23c803d1048264d8e00402d3d18231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e925b96e7c46bb124f584ad05f4818') in 0.001387 seconds 
+  Import took 0.006346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101862 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Materials/Candle1.001.mat
+  artifactKey: Guid(46b1f623489d74b4182826fed8887303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Materials/Candle1.001.mat using Guid(46b1f623489d74b4182826fed8887303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dce07324dbfed7b8d227fe8299dd089') in 0.121649 seconds 
+  Import took 0.142920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Materials/Latern_glass1.001.mat
+  artifactKey: Guid(829ca1602afa9144ba78e874380bfa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Materials/Latern_glass1.001.mat using Guid(829ca1602afa9144ba78e874380bfa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36de6c503cf10db5fd6ce7f0d22e607c') in 0.017548 seconds 
+  Import took 0.035665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets/Laterns and candles/Meshes/Materials/No Name.mat
+  artifactKey: Guid(4d2b70e3262566a45800edafe1de58aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Meshes/Materials/No Name.mat using Guid(4d2b70e3262566a45800edafe1de58aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fe25a35e5bd6980107eaf587abd098') in 0.029782 seconds 
+  Import took 0.034589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.621065 seconds.
+  path: Assets/Assets/Laterns and candles/Materials
+  artifactKey: Guid(da5ea4106d53eae4a8e9534bfefdca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials using Guid(da5ea4106d53eae4a8e9534bfefdca70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1569fb7c5f5f3cbc9d574ef00b3d3cfa') in 0.001366 seconds 
+  Import took 0.023494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025326 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1.mat
+  artifactKey: Guid(2ff38d00be4eef640bf6495fe8a5b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1.mat using Guid(2ff38d00be4eef640bf6495fe8a5b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2b6b29bca9b5d15c195192fa5a316d') in 0.017306 seconds 
+  Import took 0.022462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern1.mat
+  artifactKey: Guid(05b01ea2579be9f4ebed435fb445e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern1.mat using Guid(05b01ea2579be9f4ebed435fb445e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ca70981c24f6bf4de5118b079a842a') in 0.017750 seconds 
+  Import took 0.030107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/LittleLamp.mat
+  artifactKey: Guid(149cfb782cd2a5042a78354976abafc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/LittleLamp.mat using Guid(149cfb782cd2a5042a78354976abafc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f10e284549dd610ab60c6ff298047f4') in 0.017267 seconds 
+  Import took 0.022227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Flame.mat
+  artifactKey: Guid(b89178c9821ece842b4a7a4fed42d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Flame.mat using Guid(b89178c9821ece842b4a7a4fed42d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcfd3ec6396dc5e792faac724d86b21') in 0.037591 seconds 
+  Import took 0.049897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_greenEmission.mat
+  artifactKey: Guid(1a7fe1134bbe65f48b85c1c566b4c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_greenEmission.mat using Guid(1a7fe1134bbe65f48b85c1c566b4c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8906f450dbad99b6402861d9bb32fee1') in 0.028584 seconds 
+  Import took 0.046051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Lamp2colormap.mat
+  artifactKey: Guid(b5468ab085cc2a04b8f560aff873e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Lamp2colormap.mat using Guid(b5468ab085cc2a04b8f560aff873e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b34c3ca5699f8943ca37923fa194b04') in 0.018649 seconds 
+  Import took 0.041989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_colormap.mat
+  artifactKey: Guid(e8a238b982fb7d84483855148e713386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_colormap.mat using Guid(e8a238b982fb7d84483855148e713386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5a8a749ff20d786e3ba2598a8fc9c2') in 0.017565 seconds 
+  Import took 0.022683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern_glass1.mat
+  artifactKey: Guid(a9cef664c9823034db4a08c78926b38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern_glass1.mat using Guid(a9cef664c9823034db4a08c78926b38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb19fa9be3a9507c47ce9f02d8d93cd3') in 0.017925 seconds 
+  Import took 0.032172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Glass3.mat
+  artifactKey: Guid(dc9e1f70c9d234b4b8b4a257faeac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Glass3.mat using Guid(dc9e1f70c9d234b4b8b4a257faeac211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4319afd40e881596a03b4fd2ce061a') in 0.018425 seconds 
+  Import took 0.024224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/green_flame.mat
+  artifactKey: Guid(5d52096ef5969654399fc74a1e5e38f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/green_flame.mat using Guid(5d52096ef5969654399fc74a1e5e38f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f4010b2d01574110ed37a96dee3c77') in 0.036971 seconds 
+  Import took 0.041926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/CarvedLampPost.mat
+  artifactKey: Guid(77d10d81f215eb34bba1e5cb65e39a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/CarvedLampPost.mat using Guid(77d10d81f215eb34bba1e5cb65e39a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314ed54667e1f3778185ee9b21613edc') in 0.018594 seconds 
+  Import took 0.042010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1green_emission.mat
+  artifactKey: Guid(c1c9de58b363874419f5164aad3f6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1green_emission.mat using Guid(c1c9de58b363874419f5164aad3f6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a56dac3a2e2da854b2ed70ab7f6d38') in 0.019678 seconds 
+  Import took 0.030936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Glass2.mat
+  artifactKey: Guid(d42d8fdd97de9f546a90efec90ea8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Glass2.mat using Guid(d42d8fdd97de9f546a90efec90ea8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9872ded3f587a6abff5ad67fb4469c5') in 0.017730 seconds 
+  Import took 0.034259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Lamp3_colormap.mat
+  artifactKey: Guid(e068aa98828fe244faa2219e58e0834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Lamp3_colormap.mat using Guid(e068aa98828fe244faa2219e58e0834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fdeb696183c6ff69d0c65a2b62958b') in 0.018721 seconds 
+  Import took 0.024479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_colormap.mat
+  artifactKey: Guid(768f45aaec716d3429b83b2b7e673f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_colormap.mat using Guid(768f45aaec716d3429b83b2b7e673f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9131cb4779b918df4a369d89136024df') in 0.018791 seconds 
+  Import took 0.028492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/CarvedLampPost2.mat
+  artifactKey: Guid(01417397b4060a84dabece89e51fb467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/CarvedLampPost2.mat using Guid(01417397b4060a84dabece89e51fb467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d96f59f74a1c8e2451248a50355c741') in 0.020067 seconds 
+  Import took 0.025337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/chandelier.mat
+  artifactKey: Guid(ef9df8118d509b14380b0da9d330393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/chandelier.mat using Guid(ef9df8118d509b14380b0da9d330393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b2e1455ae5d0db9bb0ba055d4930dd') in 0.015670 seconds 
+  Import took 0.029397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern4_colormap.mat
+  artifactKey: Guid(de1e4e1a8ed19f9438342d79e0edf248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern4_colormap.mat using Guid(de1e4e1a8ed19f9438342d79e0edf248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2311f927fe2a18754b74e9daf13aa0') in 0.018370 seconds 
+  Import took 0.030910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/red_flame.mat
+  artifactKey: Guid(169561acafe59bb4a98af6cbfc772d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/red_flame.mat using Guid(169561acafe59bb4a98af6cbfc772d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f5589609a7e69d39c0b1b2a4a5fe63') in 0.019373 seconds 
+  Import took 0.034305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Glass5.mat
+  artifactKey: Guid(214a8b1bce6e52a409816e8baa19bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Glass5.mat using Guid(214a8b1bce6e52a409816e8baa19bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77ba77753f5f1f314f519ce9984768e') in 0.017761 seconds 
+  Import took 0.022708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lamp post.mat
+  artifactKey: Guid(e88cc3b41a43da64493fd04f91ae6c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lamp post.mat using Guid(e88cc3b41a43da64493fd04f91ae6c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1621a9c8dd06cc8a4ba6f3bf820f30db') in 0.021641 seconds 
+  Import took 0.036028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_blueEmission.mat
+  artifactKey: Guid(3d575510381c2ec4e901a80b63d9698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_blueEmission.mat using Guid(3d575510381c2ec4e901a80b63d9698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ca8550f574df4d5d347e16a1b6338f') in 0.018405 seconds 
+  Import took 0.035050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_BlueEmission.mat
+  artifactKey: Guid(5ef5c719608100e479fe390189d3173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_BlueEmission.mat using Guid(5ef5c719608100e479fe390189d3173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b044724b09f5b7dd5a8302d3d2a4e2') in 0.017454 seconds 
+  Import took 0.031386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern5.mat
+  artifactKey: Guid(c80049bc80d43e24da4915d1806290fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern5.mat using Guid(c80049bc80d43e24da4915d1806290fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b5109192192a0a78bbc19e0c8ff050') in 0.016013 seconds 
+  Import took 0.026735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/LampPost_wall.mat
+  artifactKey: Guid(b48090b67b3c8b84b81fcc983fc98878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/LampPost_wall.mat using Guid(b48090b67b3c8b84b81fcc983fc98878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1ea9f7fb84550a05f50902941ee5ae') in 0.015695 seconds 
+  Import took 0.026335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lustre.mat
+  artifactKey: Guid(727eea6fd83da374cb05d321c4d90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lustre.mat using Guid(727eea6fd83da374cb05d321c4d90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c2df5e5b28905add69d29373f44776') in 0.018475 seconds 
+  Import took 0.028302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Wall Lamp.mat
+  artifactKey: Guid(96a3109bf84a57d4fa28aee81c28dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Wall Lamp.mat using Guid(96a3109bf84a57d4fa28aee81c28dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766aa26169b31c2001957ed1876ae67a') in 0.019328 seconds 
+  Import took 0.044294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lattice.mat
+  artifactKey: Guid(d5e80fc50c6e73f48ac197429f573181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lattice.mat using Guid(d5e80fc50c6e73f48ac197429f573181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350baa5bd571ca9eec9f18fa01a1a3ab') in 0.018026 seconds 
+  Import took 0.031813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1blue.mat
+  artifactKey: Guid(54bade3501df1bb458909304810a4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1blue.mat using Guid(54bade3501df1bb458909304810a4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e4d163157aa28834ff70d61282dfc7') in 0.018758 seconds 
+  Import took 0.028504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_greenEmission.mat
+  artifactKey: Guid(64cfed834ca3eb24d86a1b21b55000ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_greenEmission.mat using Guid(64cfed834ca3eb24d86a1b21b55000ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5408687afe951c4235ee200a4f185a28') in 0.019713 seconds 
+  Import took 0.024768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.204132 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1.mat
+  artifactKey: Guid(2ff38d00be4eef640bf6495fe8a5b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1.mat using Guid(2ff38d00be4eef640bf6495fe8a5b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac183bd42ec394d5c0dc08574a7a790') in 0.430563 seconds 
+  Import took 0.436417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Wall Lamp_MaskMap.png
+  artifactKey: Guid(a07186d67e4dd6c4bb1d088e5bafe5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Wall Lamp_MaskMap.png using Guid(a07186d67e4dd6c4bb1d088e5bafe5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12dbe248ba9067f6d33ef29fb970e06') in 0.046671 seconds 
+  Import took 0.079559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern1.mat
+  artifactKey: Guid(05b01ea2579be9f4ebed435fb445e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern1.mat using Guid(05b01ea2579be9f4ebed435fb445e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932fdde6fa13226465f28e646a835b78') in 0.039849 seconds 
+  Import took 0.078290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/CarvedLampPost2_MaskMap.png
+  artifactKey: Guid(50e8f47a3411ef14592e05e9f5c9f5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/CarvedLampPost2_MaskMap.png using Guid(50e8f47a3411ef14592e05e9f5c9f5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72de8f6ae376ff544df5cad68799953') in 0.008189 seconds 
+  Import took 0.013172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1_MaskMap.png
+  artifactKey: Guid(af9e07f1c7cf1d04b8820326478a9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1_MaskMap.png using Guid(af9e07f1c7cf1d04b8820326478a9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d62d3dcf3c8f39be8070c628f59eb9') in 0.021989 seconds 
+  Import took 0.059715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_blueEmission_MaskMap.png
+  artifactKey: Guid(87732a6d9b8e6e542b37f4d28633a8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_blueEmission_MaskMap.png using Guid(87732a6d9b8e6e542b37f4d28633a8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8132fee75077629c0c23cfa98fb9ee') in 0.009370 seconds 
+  Import took 0.020441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_BlueEmission_MaskMap.png
+  artifactKey: Guid(04ab414fbda8bbe4cafdf1441b3864fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_BlueEmission_MaskMap.png using Guid(04ab414fbda8bbe4cafdf1441b3864fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8004c851b05a8039ca0e8476925c1f9f') in 0.009237 seconds 
+  Import took 0.014765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/LittleLamp.mat
+  artifactKey: Guid(149cfb782cd2a5042a78354976abafc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/LittleLamp.mat using Guid(149cfb782cd2a5042a78354976abafc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235ad24bc1535b0a3e742968b3218d19') in 0.021643 seconds 
+  Import took 0.027307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Lamp3_colormap_MaskMap.png
+  artifactKey: Guid(fd51fb44d037ddc4896554b8f7ec5821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Lamp3_colormap_MaskMap.png using Guid(fd51fb44d037ddc4896554b8f7ec5821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7958bfb61d11dd6c36f7e6477b111d8') in 0.009941 seconds 
+  Import took 0.015219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_greenEmission.mat
+  artifactKey: Guid(1a7fe1134bbe65f48b85c1c566b4c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_greenEmission.mat using Guid(1a7fe1134bbe65f48b85c1c566b4c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fefbe1d0939da1216fd0e71e4d9ad56') in 0.027682 seconds 
+  Import took 0.033008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/CarvedLampPost_MaskMap.png
+  artifactKey: Guid(fbe2d2aaca0afa44db924b2215b81d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/CarvedLampPost_MaskMap.png using Guid(fbe2d2aaca0afa44db924b2215b81d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92764de61b239ebf6200101cc50537da') in 0.026884 seconds 
+  Import took 0.032040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/LampPost_wall_MaskMap.png
+  artifactKey: Guid(8c5383bd4bde7614d8fc59579c475fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/LampPost_wall_MaskMap.png using Guid(8c5383bd4bde7614d8fc59579c475fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c28847c643b7777b79c1ace06871f66') in 0.008086 seconds 
+  Import took 0.040390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Lamp2colormap.mat
+  artifactKey: Guid(b5468ab085cc2a04b8f560aff873e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Lamp2colormap.mat using Guid(b5468ab085cc2a04b8f560aff873e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6f9d05a6c26c78fdba14007902ff8c') in 0.030013 seconds 
+  Import took 0.034908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern5_MaskMap.png
+  artifactKey: Guid(249c436c165fb754fa5866590ba30535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern5_MaskMap.png using Guid(249c436c165fb754fa5866590ba30535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4b4f49eb327d3e1e477fca8e024a87') in 0.008553 seconds 
+  Import took 0.018148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_colormap.mat
+  artifactKey: Guid(e8a238b982fb7d84483855148e713386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_colormap.mat using Guid(e8a238b982fb7d84483855148e713386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248533e20e1fec2c9a31a525fcabf645') in 0.027510 seconds 
+  Import took 0.032899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Lamp2colormap_MaskMap.png
+  artifactKey: Guid(d3fe25ed236d42a4c97806d3b1515df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Lamp2colormap_MaskMap.png using Guid(d3fe25ed236d42a4c97806d3b1515df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a980c6f3b2f312f860b0bc664b7e02ce') in 0.015370 seconds 
+  Import took 0.020614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1blue_MaskMap.png
+  artifactKey: Guid(7b4e65b464e5c774cbf05e259b822478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1blue_MaskMap.png using Guid(7b4e65b464e5c774cbf05e259b822478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a87ee3e70ae4090defcdbc188bb2367') in 0.007220 seconds 
+  Import took 0.012370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lattice_MaskMap.png
+  artifactKey: Guid(9b2a3d6e550e376449d9f45d1e93ddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lattice_MaskMap.png using Guid(9b2a3d6e550e376449d9f45d1e93ddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7f640aff1d97b1144913cd4c989212') in 0.016056 seconds 
+  Import took 0.030694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/green_flame.mat
+  artifactKey: Guid(5d52096ef5969654399fc74a1e5e38f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/green_flame.mat using Guid(5d52096ef5969654399fc74a1e5e38f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366222a334c30aaae0adc3d5f6d64bf4') in 0.372421 seconds 
+  Import took 0.377556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/CarvedLampPost.mat
+  artifactKey: Guid(77d10d81f215eb34bba1e5cb65e39a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/CarvedLampPost.mat using Guid(77d10d81f215eb34bba1e5cb65e39a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8e3bcc4c000c0cc92f357253bb7f5a') in 0.020764 seconds 
+  Import took 0.026836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1green_emission.mat
+  artifactKey: Guid(c1c9de58b363874419f5164aad3f6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1green_emission.mat using Guid(c1c9de58b363874419f5164aad3f6335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6059986d414b5caf70beebb424574b') in 0.020372 seconds 
+  Import took 0.025699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lamp post_MaskMap.png
+  artifactKey: Guid(02a4a3158e39afd46baa2b47d879eaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lamp post_MaskMap.png using Guid(02a4a3158e39afd46baa2b47d879eaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2c61a9fabc9c44fd7f68e6cd2e5afb') in 0.017061 seconds 
+  Import took 0.039885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Lamp3_colormap.mat
+  artifactKey: Guid(e068aa98828fe244faa2219e58e0834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Lamp3_colormap.mat using Guid(e068aa98828fe244faa2219e58e0834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6844670d5fbc7cef9554e98430f60150') in 0.021206 seconds 
+  Import took 0.027157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_colormap.mat
+  artifactKey: Guid(768f45aaec716d3429b83b2b7e673f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_colormap.mat using Guid(768f45aaec716d3429b83b2b7e673f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5392a5881621c316c5fc3d08bbf366e7') in 0.019338 seconds 
+  Import took 0.027318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/CarvedLampPost2.mat
+  artifactKey: Guid(01417397b4060a84dabece89e51fb467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/CarvedLampPost2.mat using Guid(01417397b4060a84dabece89e51fb467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021a5c3f780a6e49a016c4f4d14c9a48') in 0.022546 seconds 
+  Import took 0.055253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern4_colormap_MaskMap.png
+  artifactKey: Guid(4dc7b20520a981c4899fdd4ebdc120bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern4_colormap_MaskMap.png using Guid(4dc7b20520a981c4899fdd4ebdc120bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee141c8dced125ed6f427590b6c4b47') in 0.007601 seconds 
+  Import took 0.012327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/chandelier.mat
+  artifactKey: Guid(ef9df8118d509b14380b0da9d330393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/chandelier.mat using Guid(ef9df8118d509b14380b0da9d330393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2935daf3edd9c583855b0631992ada89') in 0.018321 seconds 
+  Import took 0.026872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/LittleLamp_MaskMap.png
+  artifactKey: Guid(d84e414696fe5b244b3be9243eaff06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/LittleLamp_MaskMap.png using Guid(d84e414696fe5b244b3be9243eaff06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58979740f0511f61cd816b968f11d51e') in 0.006881 seconds 
+  Import took 0.011917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern4_colormap.mat
+  artifactKey: Guid(de1e4e1a8ed19f9438342d79e0edf248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern4_colormap.mat using Guid(de1e4e1a8ed19f9438342d79e0edf248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3288baa5aa6dce0eaff2d35d0cf44ce6') in 0.036211 seconds 
+  Import took 0.041720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/red_flame.mat
+  artifactKey: Guid(169561acafe59bb4a98af6cbfc772d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/red_flame.mat using Guid(169561acafe59bb4a98af6cbfc772d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05ba5e756d8dbd184e057d5c8b53eee') in 0.024897 seconds 
+  Import took 0.030006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1green_emission_MaskMap.png
+  artifactKey: Guid(e90818c1977b9ff44987bba1f86c729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1green_emission_MaskMap.png using Guid(e90818c1977b9ff44987bba1f86c729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37c79729faaf724f6fdcb18be910dd0') in 0.007203 seconds 
+  Import took 0.027675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_colormap_MaskMap.png
+  artifactKey: Guid(9147403dc7646c94fbf4facbd37f3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_colormap_MaskMap.png using Guid(9147403dc7646c94fbf4facbd37f3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac12371e3f166020f1089c799c692805') in 0.019967 seconds 
+  Import took 0.025070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_greenEmission_MaskMap.png
+  artifactKey: Guid(b2f2ff2128cd0d74d8526b2032dbabf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_greenEmission_MaskMap.png using Guid(b2f2ff2128cd0d74d8526b2032dbabf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f74f0a2fdc8cb1a758db19afcefa2cf') in 0.007210 seconds 
+  Import took 0.044149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_greenEmission_MaskMap.png
+  artifactKey: Guid(7895529a773c94646a84d1e481df2f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_greenEmission_MaskMap.png using Guid(7895529a773c94646a84d1e481df2f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247a9e7ba7357c579d29ea558df0a4a5') in 0.006934 seconds 
+  Import took 0.011682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/chandelier_MaskMap.png
+  artifactKey: Guid(0e232f569a8290a4fb544e6f600c1696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/chandelier_MaskMap.png using Guid(0e232f569a8290a4fb544e6f600c1696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ed880333b67921f1a05f394087d7bf') in 0.009460 seconds 
+  Import took 0.015081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lamp post.mat
+  artifactKey: Guid(e88cc3b41a43da64493fd04f91ae6c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lamp post.mat using Guid(e88cc3b41a43da64493fd04f91ae6c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0ede331263036c72dba4b9e2921940') in 0.023752 seconds 
+  Import took 0.054831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_colormap_MaskMap.png
+  artifactKey: Guid(b8d30cd927a92d44b96b45a723ca6e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_colormap_MaskMap.png using Guid(b8d30cd927a92d44b96b45a723ca6e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b868896ca0c3e45404113dd89b7a24f4') in 0.007112 seconds 
+  Import took 0.023191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_blueEmission.mat
+  artifactKey: Guid(3d575510381c2ec4e901a80b63d9698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_blueEmission.mat using Guid(3d575510381c2ec4e901a80b63d9698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6157efb36105c3fcf4f6db404e9867') in 0.020527 seconds 
+  Import took 0.059734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle3_BlueEmission.mat
+  artifactKey: Guid(5ef5c719608100e479fe390189d3173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle3_BlueEmission.mat using Guid(5ef5c719608100e479fe390189d3173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a95dbfcbbb7820bf3593f7728b35dc') in 0.021440 seconds 
+  Import took 0.027273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern5.mat
+  artifactKey: Guid(c80049bc80d43e24da4915d1806290fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern5.mat using Guid(c80049bc80d43e24da4915d1806290fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf6ccf959db9ae71ccbe3eadfd16fe0') in 0.019265 seconds 
+  Import took 0.024502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lustre_MaskMap.png
+  artifactKey: Guid(93038163ade4a1f49b2c90972894c038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lustre_MaskMap.png using Guid(93038163ade4a1f49b2c90972894c038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae294120da5c9fb7bdc63245c491a13') in 0.017447 seconds 
+  Import took 0.042335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/LampPost_wall.mat
+  artifactKey: Guid(b48090b67b3c8b84b81fcc983fc98878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/LampPost_wall.mat using Guid(b48090b67b3c8b84b81fcc983fc98878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a926ddbf0ef7152f2b5d4c2624bd346') in 0.019577 seconds 
+  Import took 0.028884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern1_MaskMap.png
+  artifactKey: Guid(13e9c23baeb745842a2eb6a1f34960f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern1_MaskMap.png using Guid(13e9c23baeb745842a2eb6a1f34960f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83c8d039f0b8eb36a699fc88b441ff5') in 0.010718 seconds 
+  Import took 0.015581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lustre.mat
+  artifactKey: Guid(727eea6fd83da374cb05d321c4d90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lustre.mat using Guid(727eea6fd83da374cb05d321c4d90207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59df0dac896b1919e5f758b67144a6a3') in 0.028229 seconds 
+  Import took 0.033442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/lattice.mat
+  artifactKey: Guid(d5e80fc50c6e73f48ac197429f573181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/lattice.mat using Guid(d5e80fc50c6e73f48ac197429f573181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daade0853859023d2942fde0258d0de') in 0.549601 seconds 
+  Import took 0.554908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle1blue.mat
+  artifactKey: Guid(54bade3501df1bb458909304810a4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle1blue.mat using Guid(54bade3501df1bb458909304810a4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7386ba6e820102a008f337bd29dd867b') in 0.018969 seconds 
+  Import took 0.024043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Candle2_greenEmission.mat
+  artifactKey: Guid(64cfed834ca3eb24d86a1b21b55000ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Candle2_greenEmission.mat using Guid(64cfed834ca3eb24d86a1b21b55000ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6eddf8caecae0a52e3026f66a6a055') in 0.021207 seconds 
+  Import took 0.042139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.526056 seconds.
+  path: Assets/Assets/Laterns and candles/Laterns demoSettings.lighting
+  artifactKey: Guid(6bac9fa79bb70d44db42105cda402e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Laterns demoSettings.lighting using Guid(6bac9fa79bb70d44db42105cda402e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '0bdaaa3eb38814732365f7bf4deb3a6f') in 0.005144 seconds 
+  Import took 0.028120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.960012 seconds.
+  path: Assets/Assets/Laterns and candles/Sprites
+  artifactKey: Guid(6563b584ab328e540a7915484e7f8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Sprites using Guid(6563b584ab328e540a7915484e7f8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f51ba44782755b880b06486365d53df') in 0.003932 seconds 
+  Import took 0.009242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004261 seconds.
+  path: Assets/Assets/Laterns and candles/Sprites
+  artifactKey: Guid(6563b584ab328e540a7915484e7f8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Sprites using Guid(6563b584ab328e540a7915484e7f8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f51ba44782755b880b06486365d53df') in 0.001303 seconds 
+  Import took 0.007084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.996455 seconds.
+  path: Assets/Assets/Laterns and candles/scripts
+  artifactKey: Guid(e2fcbeeb74fe9964ba6d8dde33d023ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/scripts using Guid(e2fcbeeb74fe9964ba6d8dde33d023ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71fb8c5a69ea2625cf796a5a7ae986f') in 0.004356 seconds 
+  Import took 0.009871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Assets/Laterns and candles/scripts
+  artifactKey: Guid(e2fcbeeb74fe9964ba6d8dde33d023ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/scripts using Guid(e2fcbeeb74fe9964ba6d8dde33d023ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71fb8c5a69ea2625cf796a5a7ae986f') in 0.001348 seconds 
+  Import took 0.006604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.772807 seconds.
+  path: Assets/Assets/Laterns and candles/scripts/ExtendedFlycam.cs
+  artifactKey: Guid(ca793ce0507b19646ab8e031decc012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/scripts/ExtendedFlycam.cs using Guid(ca793ce0507b19646ab8e031decc012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce35c3849396256103719c6f9703b341') in 0.006233 seconds 
+  Import took 0.021367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002639 seconds.
+  path: Assets/Assets/Laterns and candles/scripts/ExtendedFlycam.cs
+  artifactKey: Guid(ca793ce0507b19646ab8e031decc012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/scripts/ExtendedFlycam.cs using Guid(ca793ce0507b19646ab8e031decc012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce35c3849396256103719c6f9703b341') in 0.001329 seconds 
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966844 seconds.
+  path: Assets/Assets/Laterns and candles/scripts/CameraFacing.cs
+  artifactKey: Guid(03d835f862f58074b859165457db4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/scripts/CameraFacing.cs using Guid(03d835f862f58074b859165457db4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a8eeb043868d4591efd6da8421e773') in 0.003776 seconds 
+  Import took 0.028478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.577778 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs
+  artifactKey: Guid(733f39f22c8fb0d42ae34470a89f6bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs using Guid(733f39f22c8fb0d42ae34470a89f6bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03e2755458556d490c867fa71f9940') in 0.005370 seconds 
+  Import took 0.010551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048964 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/Candle1.prefab
+  artifactKey: Guid(86d84285ef39db64c986f37878b14861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/Candle1.prefab using Guid(86d84285ef39db64c986f37878b14861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cec3f90ca314ccc9e2552fc7f089bf') in 0.030318 seconds 
+  Import took 0.035796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/CarvedPost2.prefab
+  artifactKey: Guid(94f10da449387134eb5a2276906ccdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/CarvedPost2.prefab using Guid(94f10da449387134eb5a2276906ccdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aeb172d87e173bb478e18318cc4c59') in 0.037339 seconds 
+  Import took 0.043209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/ceiling chain.prefab
+  artifactKey: Guid(24b4d8ad04155c244b2b776c5532e76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/ceiling chain.prefab using Guid(24b4d8ad04155c244b2b776c5532e76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fc8b2925b487492e670fd7924626a9') in 0.040003 seconds 
+  Import took 0.045673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/Candle3 1.prefab
+  artifactKey: Guid(42612f8b6c0dce8468648f3f08db6d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/Candle3 1.prefab using Guid(42612f8b6c0dce8468648f3f08db6d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097e4c9a1fa146f8bc3019a2718fbea8') in 0.020116 seconds 
+  Import took 0.025223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/Candle2.prefab
+  artifactKey: Guid(6b93fd896c90c094c8577de7399669b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/Candle2.prefab using Guid(6b93fd896c90c094c8577de7399669b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae00ba01c0879edc4e0e1120bfe0d1dc') in 0.020014 seconds 
+  Import took 0.041128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/CarvedPost2_double.prefab
+  artifactKey: Guid(cd6ef13c75034bc4d820dfaf562e4a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/CarvedPost2_double.prefab using Guid(cd6ef13c75034bc4d820dfaf562e4a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7305f5a69640cb82c215e99f68434c') in 0.031799 seconds 
+  Import took 0.038100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/Latern5.prefab
+  artifactKey: Guid(5cc22dee4f3a39f48bbb851c41003c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/Latern5.prefab using Guid(5cc22dee4f3a39f48bbb851c41003c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be6e23ccd82a462aa92a75f50064d5a') in 0.033384 seconds 
+  Import took 0.039072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/LampPost_double.prefab
+  artifactKey: Guid(6d2bb9154d502fd46a5faf6e3b55f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/LampPost_double.prefab using Guid(6d2bb9154d502fd46a5faf6e3b55f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bc88527ae717b6999de271c5cf48b1') in 0.031155 seconds 
+  Import took 0.037405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/Latern4.prefab
+  artifactKey: Guid(263b26f2316871f46a4bda232a61ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/Latern4.prefab using Guid(263b26f2316871f46a4bda232a61ec44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50c94a9e6d98aa082d49c70962a29f1') in 0.030462 seconds 
+  Import took 0.036090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/candlestick.prefab
+  artifactKey: Guid(b02c5020824fa574d88a101f9b790908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/candlestick.prefab using Guid(b02c5020824fa574d88a101f9b790908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3301f6f66a98b7231bbf302341a598e4') in 0.030225 seconds 
+  Import took 0.035568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/Latern3.prefab
+  artifactKey: Guid(d17bd81f00e4eb843a71e73358112786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/Latern3.prefab using Guid(d17bd81f00e4eb843a71e73358112786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb83276657ab7897263b6a792dfbe63') in 0.030466 seconds 
+  Import took 0.035783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/Latern2.prefab
+  artifactKey: Guid(68f8cf3372c588f4a94bf2c9bd255d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/Latern2.prefab using Guid(68f8cf3372c588f4a94bf2c9bd255d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dac18568aa96e10c87780f04387a8de') in 0.033036 seconds 
+  Import took 0.038430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assets/Laterns and candles/Prefabs/Latern1.prefab
+  artifactKey: Guid(56c82061e6c4de742a208837848be55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Prefabs/Latern1.prefab using Guid(56c82061e6c4de742a208837848be55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81009cc40219fabcd86df71c3036a882') in 0.024323 seconds 
+  Import took 0.033481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.581609 seconds.
+  path: Assets/Assets/Laterns and candles/Shaders
+  artifactKey: Guid(194c5f733c7534ed790e101791e86518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Shaders using Guid(194c5f733c7534ed790e101791e86518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0ebbc39806762cc45e792c54f30d17') in 0.004199 seconds 
+  Import took 0.010014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Assets/Laterns and candles/Shaders
+  artifactKey: Guid(194c5f733c7534ed790e101791e86518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Shaders using Guid(194c5f733c7534ed790e101791e86518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0ebbc39806762cc45e792c54f30d17') in 0.001398 seconds 
+  Import took 0.007325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.048209 seconds.
+  path: Assets/Assets/Laterns and candles/Shaders/GlassStainedBumpDistort.shader
+  artifactKey: Guid(963484209d11fd7f110076aa44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Shaders/GlassStainedBumpDistort.shader using Guid(963484209d11fd7f110076aa44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af945e6d637440c46e7f4abc0ef0e754') in 0.005606 seconds 
+  Import took 0.024299 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.0 MB.
+System memory in use after: 201.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4635.
+Total: 3.043900 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.190200 ms MarkObjects: 2.473100 ms  DeleteObjects: 0.014200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.737301 seconds.
+  path: Assets/Assets/Laterns and candles/Sprites/blue_flame.tif
+  artifactKey: Guid(9b530529fca8558449c2af2b412dbcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Sprites/blue_flame.tif using Guid(9b530529fca8558449c2af2b412dbcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fcf1289d473889124a0eab6d2d24ae') in 0.125651 seconds 
+  Import took 0.130795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets/Laterns and candles/Sprites/green_flame.tif
+  artifactKey: Guid(8098d30c44947294d839407359d24c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Sprites/green_flame.tif using Guid(8098d30c44947294d839407359d24c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1491f1a6311a141873b01245764e23aa') in 0.092569 seconds 
+  Import took 0.096969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/Laterns and candles/Sprites/red_flame.tif
+  artifactKey: Guid(e467a7f7b7a4a714db7da4a6ada82425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Sprites/red_flame.tif using Guid(e467a7f7b7a4a714db7da4a6ada82425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf6dbf6d08bdd08efd27c4b32b25a4d') in 0.092089 seconds 
+  Import took 0.111323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.158476 seconds.
+  path: Assets/Assets/Laterns and candles/scripts/CameraFacing.cs
+  artifactKey: Guid(03d835f862f58074b859165457db4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/scripts/CameraFacing.cs using Guid(03d835f862f58074b859165457db4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf662932fc9b9cf363047fa8962de11b') in 0.001468 seconds 
+  Import took 0.006425 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3724 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.1 MB.
+System memory in use after: 200.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4639.
+Total: 3.075700 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.177000 ms MarkObjects: 2.553800 ms  DeleteObjects: 0.014000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3724 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.2 MB.
+System memory in use after: 200.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4641.
+Total: 3.053000 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.200300 ms MarkObjects: 2.539800 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.864807 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Wall Lamp.mat
+  artifactKey: Guid(96a3109bf84a57d4fa28aee81c28dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Wall Lamp.mat using Guid(96a3109bf84a57d4fa28aee81c28dc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35eba3a52976593e7b0c3bbc817bb4e7') in 0.412096 seconds 
+  Import took 0.430202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.417746 seconds.
+  path: Assets/Assets/Laterns and candles/textures/albedo_transparent.psd
+  artifactKey: Guid(ab754629dd160a140bd57bb516736b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/textures/albedo_transparent.psd using Guid(ab754629dd160a140bd57bb516736b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bee95407675067d97dcedd23c16378') in 0.038444 seconds 
+  Import took 0.056410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets/Laterns and candles/textures/glass [Normal].png
+  artifactKey: Guid(447d88049f478c8458968723d760ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/textures/glass [Normal].png using Guid(447d88049f478c8458968723d760ced3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b217cd41ca3ae56a0c8b6bbff769023') in 0.023907 seconds 
+  Import took 0.028244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Assets/Laterns and candles/textures/albedo_transparent.psd
+  artifactKey: Guid(ab754629dd160a140bd57bb516736b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/textures/albedo_transparent.psd using Guid(ab754629dd160a140bd57bb516736b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bee95407675067d97dcedd23c16378') in 0.020469 seconds 
+  Import took 0.025226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.360990 seconds.
+  path: Assets/Assets/Laterns and candles/textures/Glass5 [Albedo].psd
+  artifactKey: Guid(7cd45e54184b5d4439ae89c44b3886ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/textures/Glass5 [Albedo].psd using Guid(7cd45e54184b5d4439ae89c44b3886ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e5a28076977002f9bc7086cd6c8bf2') in 0.016552 seconds 
+  Import took 0.021571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets/Laterns and candles/textures/Glass5 [Normal].png
+  artifactKey: Guid(20de9cc9282ab1c41a5672fad2d095a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/textures/Glass5 [Normal].png using Guid(20de9cc9282ab1c41a5672fad2d095a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dc912d94fb177b5d37b60471a9fc25') in 0.028073 seconds 
+  Import took 0.033091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.890671 seconds.
+  path: Assets/Assets/Laterns and candles/textures/Glass3 [Albedo].psd
+  artifactKey: Guid(bb8a24cf1ddf7e34c90620135691cd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/textures/Glass3 [Albedo].psd using Guid(bb8a24cf1ddf7e34c90620135691cd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fafa1b4ecd5753584560eadcc70153') in 0.018418 seconds 
+  Import took 0.037147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Assets/Laterns and candles/textures/Glass3 [Normal].png
+  artifactKey: Guid(00206b558d9a358438511cb4d5014466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/textures/Glass3 [Normal].png using Guid(00206b558d9a358438511cb4d5014466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e04a73eab78fda1525344de5f7137b') in 0.015867 seconds 
+  Import took 0.032775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assets/Laterns and candles/textures/Glass3 [Albedo].psd
+  artifactKey: Guid(bb8a24cf1ddf7e34c90620135691cd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/textures/Glass3 [Albedo].psd using Guid(bb8a24cf1ddf7e34c90620135691cd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fafa1b4ecd5753584560eadcc70153') in 0.008875 seconds 
+  Import took 0.013787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.824211 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Glass5.mat
+  artifactKey: Guid(214a8b1bce6e52a409816e8baa19bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Glass5.mat using Guid(214a8b1bce6e52a409816e8baa19bd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592847353be5a56e5eb5e65edf9b1de6') in 0.166954 seconds 
+  Import took 0.172658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Assets/Laterns and candles/Materials/Latern_glass1.mat
+  artifactKey: Guid(a9cef664c9823034db4a08c78926b38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Materials/Latern_glass1.mat using Guid(a9cef664c9823034db4a08c78926b38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c995daf9d702ceaae7ab608981ef5257') in 0.200784 seconds 
+  Import took 0.218797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1050ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (895ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3724 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.4 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4746.
+Total: 3.230400 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.781400 ms  DeleteObjects: 0.012100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 213.186094 seconds.
+  path: Assets/Soldiers/Latern4.prefab
+  artifactKey: Guid(bbf307ffc49822d43882a8352875a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldiers/Latern4.prefab using Guid(bbf307ffc49822d43882a8352875a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81efa785a551ea5cec74628b02fdea3d') in 0.394589 seconds 
+  Import took 0.399804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.523239 seconds.
+  path: Assets/Soldiers/Lantern.prefab
+  artifactKey: Guid(bbf307ffc49822d43882a8352875a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldiers/Lantern.prefab using Guid(bbf307ffc49822d43882a8352875a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73c10b68fa5c22f7b2ba14e36d313f3') in 0.041995 seconds 
+  Import took 0.047176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 691.003049 seconds.
+  path: Assets/Assets/Laterns and candles/Sprites/red_flame_0.controller
+  artifactKey: Guid(afdc6e8bcd57e9e42a64978e5ea081e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Sprites/red_flame_0.controller using Guid(afdc6e8bcd57e9e42a64978e5ea081e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52837267d1f22aed33bc14441a5d3f49') in 0.007076 seconds 
+  Import took 0.012771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Assets/Laterns and candles/Sprites/red_flame_0.controller
+  artifactKey: Guid(afdc6e8bcd57e9e42a64978e5ea081e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Laterns and candles/Sprites/red_flame_0.controller using Guid(afdc6e8bcd57e9e42a64978e5ea081e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52837267d1f22aed33bc14441a5d3f49') in 0.002063 seconds 
+  Import took 0.007602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 767.400684 seconds.
+  path: Assets/Soldiers/Lantern 1.prefab
+  artifactKey: Guid(df93e3d385d47334b987421ff847eabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldiers/Lantern 1.prefab using Guid(df93e3d385d47334b987421ff847eabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c403f3de17312a61d11fd0a9238ac61f') in 0.157212 seconds 
+  Import took 0.163253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.621715 seconds.
+  path: Assets/Soldiers/Lantern.prefab
+  artifactKey: Guid(df93e3d385d47334b987421ff847eabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldiers/Lantern.prefab using Guid(df93e3d385d47334b987421ff847eabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4126469d41a478436d3c77a0afc9c4') in 0.030700 seconds 
+  Import took 0.035907 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1109ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3724 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4849.
+Total: 3.210700 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.163700 ms MarkObjects: 2.731700 ms  DeleteObjects: 0.013000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3724 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4851.
+Total: 3.119100 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.160800 ms MarkObjects: 2.653300 ms  DeleteObjects: 0.012200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1026ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3724 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4853.
+Total: 3.526100 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.200900 ms MarkObjects: 3.007700 ms  DeleteObjects: 0.013600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 723.800641 seconds.
+  path: Assets/DialogueSystem/Dialogues/Menigeheineman/Menigeheineman.asset
+  artifactKey: Guid(38e0cc7e8282326478f85ae7f87d1aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueSystem/Dialogues/Menigeheineman/Menigeheineman.asset using Guid(38e0cc7e8282326478f85ae7f87d1aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cc8679f640003d25fb491006a7862d') in 0.043471 seconds 
+  Import took 0.100207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001794 seconds.
+  path: Assets/DialogueSystem/Dialogues/Menigeheineman/Menigeheineman.asset
+  artifactKey: Guid(38e0cc7e8282326478f85ae7f87d1aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueSystem/Dialogues/Menigeheineman/Menigeheineman.asset using Guid(38e0cc7e8282326478f85ae7f87d1aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cc8679f640003d25fb491006a7862d') in 0.002807 seconds 
+  Import took 0.007597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.452374 seconds.
+  path: Assets/DialogueSystem/Dialogues/Menigeheineman/Groups/Greetings/Dialogues/Start.asset
+  artifactKey: Guid(626a72f532188b044aafbd690a28ec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueSystem/Dialogues/Menigeheineman/Groups/Greetings/Dialogues/Start.asset using Guid(626a72f532188b044aafbd690a28ec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d92c58568c7f4aa9bcf6e353f06fdf8') in 0.005248 seconds 
+  Import took 0.010249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001861 seconds.
+  path: Assets/DialogueSystem/Dialogues/Menigeheineman/Groups/Greetings/Dialogues/Start.asset
+  artifactKey: Guid(626a72f532188b044aafbd690a28ec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueSystem/Dialogues/Menigeheineman/Groups/Greetings/Dialogues/Start.asset using Guid(626a72f532188b044aafbd690a28ec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d92c58568c7f4aa9bcf6e353f06fdf8') in 0.002298 seconds 
+  Import took 0.007118 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002309 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (927ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3724 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4855.
+Total: 3.238000 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.170900 ms MarkObjects: 2.718900 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7930c3a86fb79345b754126e7a04c28, type: 3}
+  m_Name: KropLinserGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: KropLinser
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 1954b904-8292-4c72-8273-816cf5d9e49c
+    <Name>k__BackingField: Greetings
+    <Position>k__BackingField: {x: 75, y: 142}
+  - <ID>k__BackingField: 14638f04-301c-4bc9-a707-54fbe76bcecc
+    <Name>k__BackingField: GasMask
+    <Position>k__BackingField: {x: 927, y: -398}
+  - <ID>k__BackingField: 392dbf4e-582c-4c19-92c4-769970e85eda
+    <Name>k__BackingField: CourtMarshalled
+    <Position>k__BackingField: {x: 1094, y: 685}
+  - <ID>k__BackingField: 559465cf-2362-4655-a390-fa70cdbf486d
+    <Name>k__BackingField: Irritated
+    <Position>k__BackingField: {x: 1140, y: 311}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 6f4eee84-c9e3-4a4a-8e3b-8e32a1b93a8f
+    <Name>k__BackingField: Start
+    <Text>k__BackingField: "Vi har f\xF6rlorat m\xE5nga soldater under dagens strider"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Hur kommer det sig?
+      <NodeID>k__BackingField: 48e5e018-dfbd-48c7-946d-809f0638ece0
+    - <Text>k__BackingField: "L\xE5ter som ett du problem tycker jag"
+      <NodeID>k__BackingField: ad617059-04c4-4c07-b531-461994b50725
+    <GroupID>k__BackingField: 1954b904-8292-4c72-8273-816cf5d9e49c
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 100, y: 316}
+  - <ID>k__BackingField: ad617059-04c4-4c07-b531-461994b50725
+    <Name>k__BackingField: RudeResponse
+    <Text>k__BackingField: "Jag borde st\xE4lla dig inf\xF6r r\xE4tta!"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Jag ber om urs\xE4kt, jag vet inte vad som kom \xF6ver
+        mig"
+      <NodeID>k__BackingField: 04f314e0-9b0b-4ad2-afe7-f211d9b8bb4c
+    - <Text>k__BackingField: "Skulle vilja se dig f\xF6rs\xF6ka!"
+      <NodeID>k__BackingField: 470fd744-bfa2-4b53-bbb8-5166ba644dc7
+    <GroupID>k__BackingField: 1954b904-8292-4c72-8273-816cf5d9e49c
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 562, y: 419}
+  - <ID>k__BackingField: 48e5e018-dfbd-48c7-946d-809f0638ece0
+    <Name>k__BackingField: Answer
+    <Text>k__BackingField: "De tyska artillerierna regnar ned gas p\xE5 oss"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: d8f6fc47-b7e4-4fd5-b97e-406f93328d2b
+    <GroupID>k__BackingField: 1954b904-8292-4c72-8273-816cf5d9e49c
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 562, y: 201}
+  - <ID>k__BackingField: d8f6fc47-b7e4-4fd5-b97e-406f93328d2b
+    <Name>k__BackingField: GasMask
+    <Text>k__BackingField: Om du ser en gasmask, var noga med att ta upp den
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Tack f\xF6r tipset!"
+      <NodeID>k__BackingField: 17afe0e7-5e41-4c61-90e8-df4d9cc73189
+    - <Text>k__BackingField: "Jag s\xE5g en l\xE4ngre bak, kommer strax tillbaka"
+      <NodeID>k__BackingField: 566376d4-cd4e-4efd-9125-dd3bf58a3418
+    <GroupID>k__BackingField: 14638f04-301c-4bc9-a707-54fbe76bcecc
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 952, y: -248}
+  - <ID>k__BackingField: 04f314e0-9b0b-4ad2-afe7-f211d9b8bb4c
+    <Name>k__BackingField: Answer
+    <Text>k__BackingField: "B\xE4st f\xF6r dig att du ber om urs\xE4kt"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 559465cf-2362-4655-a390-fa70cdbf486d
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1165, y: 370}
+  - <ID>k__BackingField: 470fd744-bfa2-4b53-bbb8-5166ba644dc7
+    <Name>k__BackingField: Dead
+    <Text>k__BackingField: "*Korp Lins\xE9r str\xE4cker sig efter sitt gev\xE4r*"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: f9cb43e2-59cb-4cf8-b4aa-b33af7c4dab7
+    <GroupID>k__BackingField: 392dbf4e-582c-4c19-92c4-769970e85eda
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1119, y: 744}
+  - <ID>k__BackingField: f9cb43e2-59cb-4cf8-b4aa-b33af7c4dab7
+    <Name>k__BackingField: Gameover
+    <Text>k__BackingField: "*Allt blir svart samtidigt som du k\xE4nner den kalla
+      lla stocken mot ditt huvud*"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 392dbf4e-582c-4c19-92c4-769970e85eda
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1459, y: 744}
+  - <ID>k__BackingField: 566376d4-cd4e-4efd-9125-dd3bf58a3418
+    <Name>k__BackingField: Goback
+    <Text>k__BackingField: "G\xF6r s\xE5, den \xE4r viktig f\xF6r din \xF6verlevnad"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 14638f04-301c-4bc9-a707-54fbe76bcecc
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1452, y: -132}
+  - <ID>k__BackingField: 17afe0e7-5e41-4c61-90e8-df4d9cc73189
+    <Name>k__BackingField: Thanks
+    <Text>k__BackingField: Ingen orsak
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 14638f04-301c-4bc9-a707-54fbe76bcecc
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1473, y: -339}
+  <OldGroupNames>k__BackingField:
+  - Greetings
+  - GasMask
+  - CourtMarshalled
+  - Irritated
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Greetings
+      Value:
+      - Start
+      - RudeResponse
+      - Answer
+    - Key: GasMask
+      Value:
+      - GasMask
+      - Goback
+      - Thanks
+    - Key: Irritated
+      Value:
+      - Answer
+    - Key: CourtMarshalled
+      Value:
+      - Dead
+      - Gameover

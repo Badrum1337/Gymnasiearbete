@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 4f729a57bc5df8a4a822a08511d9b1a0
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 2800807142694765975
+    second: iso_PR_SandBag|iso_PR_SandBagAction
+  - first:
+      74: -8176451125707188052
+    second: iso_PR_SandBag.001|iso_PR_SandBagAction.001
+  - first:
+      74: 4714333388333748440
+    second: iso_PR_SandBag.002|iso_PR_SandBagAction.002
+  - first:
+      74: 1337707725969544427
+    second: iso_PR_SandBag.003|iso_PR_SandBagAction.003
+  - first:
+      74: 8563071875154407093
+    second: iso_PR_SandBag.004|iso_PR_SandBagAction.004
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: a585ef7b07b51f94595f9486379efb43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.001
+    second: {fileID: 2100000, guid: e551e903f5d5e9748b27be4d7d56e632, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.002
+    second: {fileID: 2100000, guid: c57839fea4ec6394a8184d484b880230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.003
+    second: {fileID: 2100000, guid: 6e481eb9e013dc14193188d78374c3e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.004
+    second: {fileID: 2100000, guid: 1aea12108338a764bbb1e52c451d958c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.005
+    second: {fileID: 2100000, guid: 8fd918e9921b18b48a4f4f3d10818292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.006
+    second: {fileID: 2100000, guid: 55162f783a5656d42aa90b5cacab121d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.007
+    second: {fileID: 2100000, guid: 9bcc0525d19f9f94981f506a1514f828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.008
+    second: {fileID: 2100000, guid: c988bfdaa133f57488316a3d6639f3bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.009
+    second: {fileID: 2100000, guid: 45c78e64506fbf5458e6f220c792a9b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default.010
+    second: {fileID: 2100000, guid: 2dffc6b030d3d88479749836265e5398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial
+    second: {fileID: 2100000, guid: 1e52e7dc371de3b4a9e527bccd047f1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial.001
+    second: {fileID: 2100000, guid: 52d595762a24a0e46be8ab6f6e26fd3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dirt
+    second: {fileID: 2100000, guid: 10f97fd44ae0aac4d83c198e5c4a1428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 04e602f1b57acab4ab8460dcfd76282d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 99f6b5f6ef4fe6f4fb4ecc1fa497b658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: e828456d5ff0b484291f345d65368d72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 68577c2fc569f4243a9d8011da99b84c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 4c7ac10f96b962e4497a1f92fcb43a0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 8a321a3e00697ee49a4de48b879a30ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: b8518c1457ddc3d49bbdc68f8f825b8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: d37208c4e40ed7544acceb74d330333c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: 7e105f2471d0516448078f88c5b668e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.016
+    second: {fileID: 2100000, guid: a6229285d3de42447944bc3c135cd448, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: 4276783ba49255c449ec3a2aec2ddcdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD
+    second: {fileID: 2100000, guid: d6b7aa183cac4604a833503270f9ce98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.001
+    second: {fileID: 2100000, guid: 3accd091893aa214380ba1737ef5346d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.002
+    second: {fileID: 2100000, guid: 6cf6df8ffa76aa94aaf1141d57f0f08b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.003
+    second: {fileID: 2100000, guid: d86a90ff3fa558f47a580cecc6f43259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.004
+    second: {fileID: 2100000, guid: b7fd21cb6c423754eaa713c0b172b956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.006
+    second: {fileID: 2100000, guid: 3baa1e578f6107240ba407b95097fe6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.007
+    second: {fileID: 2100000, guid: 75fd2a97240be4c41b91a75f688c44fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.008
+    second: {fileID: 2100000, guid: 3289121c3de57b340a7f4dbdf917dc2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.009
+    second: {fileID: 2100000, guid: 20152e6ab0245fe4bab3b91bfe0882f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.010
+    second: {fileID: 2100000, guid: c80079968c1814a44a3401fc4ad97659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.011
+    second: {fileID: 2100000, guid: d852ed1e3d6d8da48865c975708bb158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.012
+    second: {fileID: 2100000, guid: 154d525f195abb945b24433c12fd2713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.013
+    second: {fileID: 2100000, guid: 01e35946cf56a934aa67b12503476b88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.014
+    second: {fileID: 2100000, guid: 3d67ca8564fe4dc4d9125fcbe70154ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.015
+    second: {fileID: 2100000, guid: f38bb484c6f4f4448a876c05ea540b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.016
+    second: {fileID: 2100000, guid: 77821d2f1ef6eec4abae15837cc14523, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.017
+    second: {fileID: 2100000, guid: 5d714c89f4a5a2e448a6c562025cf9ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.018
+    second: {fileID: 2100000, guid: cbec35f5318a67f40a1d97b1e0e8f314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.019
+    second: {fileID: 2100000, guid: eeeba338651abcf4682f5ff84a3da321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.020
+    second: {fileID: 2100000, guid: 7c20020dc2aa8824fa38b70cb04e77f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.021
+    second: {fileID: 2100000, guid: a009b8d01cbe3f640be3d0c0040b5ff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.022
+    second: {fileID: 2100000, guid: 0f5c2bc6207904648b08e547de915bac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.023
+    second: {fileID: 2100000, guid: f17f9cb4130d7f649bfd104de29fbcaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.024
+    second: {fileID: 2100000, guid: 97e5215b695d28743b2e93039c7b4f8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.025
+    second: {fileID: 2100000, guid: 6f830e62f4edf394a88e4dce0d5b448a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.026
+    second: {fileID: 2100000, guid: ad83153e6cc35f94c86a80ed73076c56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.027
+    second: {fileID: 2100000, guid: e1fe15f13e518fa49a4d532e194ca520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.028
+    second: {fileID: 2100000, guid: 8d56eb2ea9fa80047bec9cfe1fe636d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.029
+    second: {fileID: 2100000, guid: 03c2c92c407f3b14ab3e9f5cee348d5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.030
+    second: {fileID: 2100000, guid: c8efea583b9e06044bbc6dbf55ed6fa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.031
+    second: {fileID: 2100000, guid: 0dbed0a27dcbac64595e6fbb11c8cf6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.032
+    second: {fileID: 2100000, guid: 0e3e13a571fe42043a225e030359086e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.033
+    second: {fileID: 2100000, guid: f946a479c9ff5b74d94ec8e26ca3564b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.034
+    second: {fileID: 2100000, guid: e6c7d5b97c5169b45951ceb25d30ce97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.035
+    second: {fileID: 2100000, guid: cf26ef2deb1e4004c9f53a7fcea98ced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.036
+    second: {fileID: 2100000, guid: 829c3d508826b3c4881c13f10b954dcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.037
+    second: {fileID: 2100000, guid: 4873f270c34e72542b1abf8f476160bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.038
+    second: {fileID: 2100000, guid: acf7f797d321ce140b41021b9af91ea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.039
+    second: {fileID: 2100000, guid: 2c422d74d342b09498dae56ca04e8795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD.040
+    second: {fileID: 2100000, guid: 8a0009305d0967f49bb9ffaf970de0d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chauchat
+    second: {fileID: 2100000, guid: 21c5c39576c7e964db8b742907a38da9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1SG
+    second: {fileID: 2100000, guid: ab48023804a03fc49985b75d15dcce80, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1.chauchat_Roughness
+    second: {fileID: 2800000, guid: d086338f1ecbc9343a7aae68281154ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1.chauchat_basecolor
+    second: {fileID: 2800000, guid: 2f02faf5d0c8fb34582ff9fbc3a92ab2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ground_1_2K_Albedo
+    second: {fileID: 2800000, guid: 8fa0270c1bb397247807d81fac008e90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ground_1_2K_Metalness
+    second: {fileID: 2800000, guid: a9342ccfde9bf654f9cd35aca5c875ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ground_1_2K_Normal
+    second: {fileID: 2800000, guid: 26248c09aae3f1f49802bfe1c1843ccb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ground_1_2K_Roughness
+    second: {fileID: 2800000, guid: ab0069bbd1713df42a3cb8517ed08df0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: New_Graph_normal.tga
+    second: {fileID: 2800000, guid: 113fd0e594d1c9f4bbad27bf19c90b47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD_D
+    second: {fileID: 2800000, guid: 4ba98e3bd7fcd5348a3a73218bf82c55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD_N
+    second: {fileID: 2800000, guid: 30efdd9da7f00c84f9a554015b502a6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PR_SandBag_SHD_R
+    second: {fileID: 2800000, guid: 3650554a7614ed04192901b54738d15f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock_Albedo.tga
+    second: {fileID: 2800000, guid: 1f6b0245d428c42488389a793715e4e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crate_Base_Color
+    second: {fileID: 2800000, guid: 753579b385193fc4f88199244f7f9e0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crate_Metallic
+    second: {fileID: 2800000, guid: ab68d7e55ff6b1b45ac362febdc448ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: crate_Roughness
+    second: {fileID: 2800000, guid: a2809a193088c04409f865a579c79bae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sutr_zula_midle1_DiffuseMap
+    second: {fileID: 2800000, guid: fe57bd6b18888d34bb4fd3d53fea0bd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sutr_zula_midle1_NormalsMap
+    second: {fileID: 2800000, guid: 4cf48591bcaedcc4eb2a5b997800c6e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree_albedo
+    second: {fileID: 2800000, guid: e57ce69cdaa508a42877993582fbc15d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree_metallic
+    second: {fileID: 2800000, guid: c21d9153c61d80d4f8965255d2d3a78d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tree_normal
+    second: {fileID: 2800000, guid: f4629bff133f2be45a14dd263ad7d282, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

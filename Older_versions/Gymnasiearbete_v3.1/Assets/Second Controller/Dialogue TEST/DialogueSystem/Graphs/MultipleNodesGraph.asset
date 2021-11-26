@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7930c3a86fb79345b754126e7a04c28, type: 3}
+  m_Name: MultipleNodesGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: MultipleNodes
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 2e98d8ac-3ea5-4198-b74d-07af060e3ada
+    <Name>k__BackingField: DialogueGroup
+    <Position>k__BackingField: {x: 1382, y: -74}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: d4b2563d-6e95-4057-abe8-2fe450db406d
+    <Name>k__BackingField: Question
+    <Text>k__BackingField: Quedaweadedfhiuahd
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Answer1
+      <NodeID>k__BackingField: 8c0a8140-4312-4abc-8303-8d3f43127af5
+    - <Text>k__BackingField: Answer2
+      <NodeID>k__BackingField: 9b83ec50-a97f-490b-93c2-115996621f1c
+    - <Text>k__BackingField: Answer3
+      <NodeID>k__BackingField: 1393ed28-b986-4308-b721-ee7bca489161
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 139, y: 166}
+  - <ID>k__BackingField: 9b83ec50-a97f-490b-93c2-115996621f1c
+    <Name>k__BackingField: Answer2
+    <Text>k__BackingField: hejsan
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 651, y: 245}
+  - <ID>k__BackingField: 1393ed28-b986-4308-b721-ee7bca489161
+    <Name>k__BackingField: Answer3
+    <Text>k__BackingField: hej
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 469, y: 452}
+  - <ID>k__BackingField: 9770a35f-99f9-47c0-9327-7a14227e1211
+    <Name>k__BackingField: Answer7
+    <Text>k__BackingField: Din Mamma
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: e7f6e82e-d538-4ba5-bf24-0f5d3f690fdf
+    <GroupID>k__BackingField: 2e98d8ac-3ea5-4198-b74d-07af060e3ada
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1407, y: -15}
+  - <ID>k__BackingField: 7e235376-b11f-4797-8105-c862d82f5b2b
+    <Name>k__BackingField: Answer6
+    <Text>k__BackingField: Din pappa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: e7f6e82e-d538-4ba5-bf24-0f5d3f690fdf
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1379, y: 245}
+  - <ID>k__BackingField: e7f6e82e-d538-4ba5-bf24-0f5d3f690fdf
+    <Name>k__BackingField: Avslut
+    <Text>k__BackingField: "Hej d\xE5"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1730, y: 220}
+  - <ID>k__BackingField: 5943afc0-a01c-41c1-a760-49c6e9ea131d
+    <Name>k__BackingField: Answer5
+    <Text>k__BackingField: dehajkdbn,keadb,akhb
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Quest1
+      <NodeID>k__BackingField: 9770a35f-99f9-47c0-9327-7a14227e1211
+    - <Text>k__BackingField: Quest2
+      <NodeID>k__BackingField: 7e235376-b11f-4797-8105-c862d82f5b2b
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 1052, y: 31}
+  - <ID>k__BackingField: 8c0a8140-4312-4abc-8303-8d3f43127af5
+    <Name>k__BackingField: Answer1
+    <Text>k__BackingField: deakbdhaedajknd
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: ee149458-b87f-4679-9efc-351f1beb0e63
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 446, y: 7}
+  - <ID>k__BackingField: ee149458-b87f-4679-9efc-351f1beb0e63
+    <Name>k__BackingField: Answer4
+    <Text>k__BackingField: Godaihjd.elabd.ka
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 5943afc0-a01c-41c1-a760-49c6e9ea131d
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 743, y: 31}
+  <OldGroupNames>k__BackingField:
+  - DialogueGroup
+  <OldUngroupedNodeNames>k__BackingField:
+  - Question
+  - Answer2
+  - Answer3
+  - Answer6
+  - Avslut
+  - Answer5
+  - Answer1
+  - Answer4
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: DialogueGroup
+      Value:
+      - Answer7

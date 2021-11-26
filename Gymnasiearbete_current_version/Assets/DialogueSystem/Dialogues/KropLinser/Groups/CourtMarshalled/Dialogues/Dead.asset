@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1fe8b3236682d47ad04d060bb9cfb0, type: 3}
+  m_Name: Dead
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Dead
+  <Text>k__BackingField: "*Korp Lins\xE9r str\xE4cker sig efter sitt gev\xE4r*"
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Next Dialogue
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4cd7602db7e8f7b4cb091f447654883e, type: 2}
+  <DialogueType>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 0

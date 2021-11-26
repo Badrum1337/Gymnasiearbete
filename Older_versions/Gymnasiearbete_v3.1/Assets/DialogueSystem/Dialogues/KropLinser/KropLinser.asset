@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fba13e86bf2ddb4f9cc444d3c9e604c, type: 3}
+  m_Name: KropLinser
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: KropLinser
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 2607250c07d5049499490abbfacf0394, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 6090037f88a45e6499760b855f76032c, type: 2}
+      - {fileID: 11400000, guid: e2488ab699e836a418a107cd1330280a, type: 2}
+      - {fileID: 11400000, guid: 58602a3dc69332a4b9e6c44569a9c931, type: 2}
+    - Key: {fileID: 11400000, guid: eeee776cb19d3bb4ca84973088ac7244, type: 2}
+      Value:
+      - {fileID: 11400000, guid: eeafea9b9fbf2f84caa16f0bbc6c0985, type: 2}
+      - {fileID: 11400000, guid: 1e8506fc14f995f40bd26dfd6469b32d, type: 2}
+      - {fileID: 11400000, guid: 5d4d85078ddf4484e85153d0dfe9da6b, type: 2}
+    - Key: {fileID: 11400000, guid: 3176eb76374bc5f47957cdb917257f42, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 3747d4c01fbf69344b096b166c820afc, type: 2}
+      - {fileID: 11400000, guid: 4cd7602db7e8f7b4cb091f447654883e, type: 2}
+    - Key: {fileID: 11400000, guid: 3ea7376c9dc7f3d4a99624b1cf099e1f, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 753be6e381927304ca422aecf8938ca9, type: 2}
+  <UngroupedDialogues>k__BackingField: []

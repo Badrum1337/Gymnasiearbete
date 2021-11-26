@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7930c3a86fb79345b754126e7a04c28, type: 3}
+  m_Name: MenigeheinemanGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Menigeheineman
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 118776bc-6b10-4748-b9ba-4418356b4535
+    <Name>k__BackingField: Greetings
+    <Position>k__BackingField: {x: -59, y: 59}
+  - <ID>k__BackingField: 409d037c-43d4-4847-8659-f278046f2352
+    <Name>k__BackingField: HavntSeen
+    <Position>k__BackingField: {x: 443, y: -223.00002}
+  - <ID>k__BackingField: 628ca8a4-273c-4991-b7f9-be3bac030cb2
+    <Name>k__BackingField: Seen
+    <Position>k__BackingField: {x: 426, y: 74.999985}
+  - <ID>k__BackingField: 6ec93f37-f743-48f4-9285-aa61ad61920c
+    <Name>k__BackingField: Hostile
+    <Position>k__BackingField: {x: 368, y: 407}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 2daba08f-f4aa-4736-b316-196a62a20899
+    <Name>k__BackingField: Start
+    <Text>k__BackingField: "Ser du vapnet till ditt h\xF6ger?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Nej, vad prater du om?
+      <NodeID>k__BackingField: bf01eb8f-0874-4db4-a670-3cf6fd71faba
+    - <Text>k__BackingField: Ja, jag ser
+      <NodeID>k__BackingField: 75e98e06-0e2f-47f8-9f8e-e4c4b7563431
+    - <Text>k__BackingField: "\xC4r du blind, det finns inget vapen"
+      <NodeID>k__BackingField: 3e50022f-40a6-4cd3-8816-82dd2fa0786f
+    <GroupID>k__BackingField: 118776bc-6b10-4748-b9ba-4418356b4535
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: -34, y: 118}
+  - <ID>k__BackingField: 3e50022f-40a6-4cd3-8816-82dd2fa0786f
+    <Name>k__BackingField: HostileResponse
+    <Text>k__BackingField: "Jas\xE5, d\xE5 tycker jag att du kan sluta st\xF6ra en
+      blind man"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 6ec93f37-f743-48f4-9285-aa61ad61920c
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 393, y: 466}
+  - <ID>k__BackingField: 75e98e06-0e2f-47f8-9f8e-e4c4b7563431
+    <Name>k__BackingField: Gun
+    <Text>k__BackingField: "Jag tog den fr\xE5n en d\xF6d fransk soldat innan jag
+      skj\xF6t ned 100 tyskar med den"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Jas\xE5, det d\xE4r vapnet \xE4r \xF6k\xE4nt f\xF6r
+        att ha massa fel"
+      <NodeID>k__BackingField: 490ae221-cb81-4264-96dd-59c7fac98cbf
+    - <Text>k__BackingField: Jag tror dig inte
+      <NodeID>k__BackingField: 0365c225-1dbe-439d-8f11-10a05db592d3
+    - <Text>k__BackingField: Wow!
+      <NodeID>k__BackingField: 13e3423d-07e4-4424-a058-94e44d3fb62f
+    <GroupID>k__BackingField: 628ca8a4-273c-4991-b7f9-be3bac030cb2
+    <DialogueType>k__BackingField: 1
+    <Postion>k__BackingField: {x: 451, y: 134}
+  - <ID>k__BackingField: bf01eb8f-0874-4db4-a670-3cf6fd71faba
+    <Name>k__BackingField: GoSee
+    <Text>k__BackingField: "G\xE5 och titta p\xE5 det"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 409d037c-43d4-4847-8659-f278046f2352
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 468, y: -164}
+  - <ID>k__BackingField: 490ae221-cb81-4264-96dd-59c7fac98cbf
+    <Name>k__BackingField: Embarassed
+    <Text>k__BackingField: 'Eh, va.... vad pratar du? Jag vet inte vad du menar,
+      det vapnet skulle aldrig... '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1035, y: -62}
+  - <ID>k__BackingField: 0365c225-1dbe-439d-8f11-10a05db592d3
+    <Name>k__BackingField: Brag
+    <Text>k__BackingField: "Skyll dig sj\xE4lv"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1111, y: 134}
+  - <ID>k__BackingField: 13e3423d-07e4-4424-a058-94e44d3fb62f
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: "Om du skulle kunna n\xE4mna det till Korpralen d\xE4r
+      borta skulle jag uppskatta det"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Postion>k__BackingField: {x: 1166, y: 395}
+  <OldGroupNames>k__BackingField:
+  - Greetings
+  - HavntSeen
+  - Seen
+  - Hostile
+  <OldUngroupedNodeNames>k__BackingField:
+  - Embarassed
+  - Brag
+  - DialogueName
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Greetings
+      Value:
+      - Start
+    - Key: Hostile
+      Value:
+      - HostileResponse
+    - Key: Seen
+      Value:
+      - Gun
+    - Key: HavntSeen
+      Value:
+      - GoSee
